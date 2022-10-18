@@ -1,6 +1,7 @@
 
 // here We do store
 const store = require('./store')
+// here We do store
 
 const signUpSuccess = function (data) {
   console.log(data)
