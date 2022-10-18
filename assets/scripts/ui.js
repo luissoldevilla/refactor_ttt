@@ -1,4 +1,5 @@
 
+// here We do store
 const store = require('./store')
 
 const signUpSuccess = function (data) {
