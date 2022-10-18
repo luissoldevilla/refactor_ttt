@@ -1,0 +1,88 @@
+$icon-font-path: '~bootstrap-sass/assets/fonts/bootstrap/';
+@import '~bootstrap-sass/assets/stylesheets/bootstrap';
+
+$boardgamecolor: black;
+
+body {
+  text-align: center;
+  background-color: white;
+  color: black;
+}
+
+table {
+  border-collapse: collapse;
+  left: 50%;
+  margin-top: 25px;
+  margin-left: -230px;
+  position: absolute;
+  top: 100px;
+}
+
+td {
+  border: 5px solid $boardgamecolor;
+  height: 150px;
+  width: 150px;
+}
+
+table tr:first-child td {
+  border-top: 0;
+  // background-color: yellow;
+}
+
+table tr:last-child td {
+  border-bottom: 0;
+  // background-color: red;
+}
+
+table tr td:first-child {
+  border-left: 0;
+  // background-color: green;
+}
+
+table tr td:last-child {
+  border-right: 0;
+  // background-color: green;
+}
+
+#password-change {
+  position: fixed;
+  left: 500px;
+}
+
+#new-game {
+  margin-left: 1px;
+}
+
+#score-Board {
+  #sb-title {
+    text-align: center;
+  }
+
+  text-indent: 40px;
+  text-align: justify;
+  width: 500px;
+  display: inline-block;
+  border-style: solid;
+  border-width: 5px;
+  margin-top: 480px;
+}
+
+#change-password {
+  width: 500px;
+  left: 50%;
+  margin-left: -250px;
+  position: absolute;
+}
+
+#sign-out {
+  margin-left: -290px;
+  position: absolute;
+  margin-top: 860px;
+}
+
+#win-message {
+  margin-top: 150px;
+  position: absolute;
+  margin-left: 60px;
+  margin-bottom: 5px;
+}
